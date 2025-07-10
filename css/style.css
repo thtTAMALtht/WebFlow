@@ -36,6 +36,7 @@ img{
     background-image: url("../images/Hero-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
+    height: 698px;
 }
 
 
@@ -44,7 +45,7 @@ nav{
     max-width: 1140px;
     margin: 0 auto;
     justify-content: space-between;
-    padding-top: 50px
+    padding: 50px 0px;
 }
 
 nav a{
@@ -61,4 +62,36 @@ nav button{
     font-size: 16px;
     color: #ffffff;
     border-radius: 10px;
+    transition: all linear .5s;
+}
+nav button:hover{
+    background-color: #03855a;
+    color: #afff47;
+}
+
+/* nav part end */
+/* banner part start */
+.banner{
+    text-align: center;
+    padding: 158px 0px;
+}
+.banner h2{
+    font-size: 65px;
+    color: #252432;
+}
+
+.banner button{
+    padding: 12px 36px;
+    background-color: #4E47FF;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #ffffff;
+    border-radius: 10px;
+    margin-top: 37px;
+    transition: all linear .5s;
+}
+.banner button:hover{
+    background-color: #03855a;
+    color: #afff47;
 }
