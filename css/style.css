@@ -340,4 +340,8 @@ footer{
 .menu ul li a{
     font-size: 16px;
     color: #8d89f7;
+    transition: all linear .5s;
+}
+.menu ul li a:hover{
+    color: #03855a;
 }
