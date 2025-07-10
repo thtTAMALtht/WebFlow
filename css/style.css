@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     outline: 0;
+    box-sizing: border-box;
 }
 
 h1,h2,h3,h4,h5,h6,ol,ul,p,address{
@@ -70,12 +71,12 @@ body{
     height: 698px;
 }
 
-
 nav{
     display: flex;
     max-width: 1140px;
     margin: 0 auto;
     justify-content: space-between;
+    align-items: center;
     padding: 50px 0px;
 }
 
@@ -101,6 +102,7 @@ nav button:hover{
 }
 
 /* nav part end */
+
 /* banner part start */
 .banner{
     text-align: center;
@@ -169,7 +171,7 @@ nav button:hover{
     Height: 328px;
     border-radius: 48px;
 }
-
+/* action part end */
 
 .users{
     text-align: center;
@@ -199,7 +201,6 @@ nav button:hover{
     color: #00000080;
     font-size: 20px;
 }
-
 /* users part end */
 
 .users-feedback h4{
@@ -214,9 +215,8 @@ nav button:hover{
     gap: 20px;
 }
 
-
 .feedback{
-    max-width: 33%;
+    max-width: 33.3%;
     background-color: #FAFBFF;
     border-radius: 15px;
     padding: 24px;
@@ -250,3 +250,64 @@ nav button:hover{
     font-size: 12px;
     color: #a09f9f;
 }
+/* users feedback end */
+.touch{
+    display: flex;
+    padding: 120px 0px;
+    align-items: center;
+}
+.touch-left{
+    width: 50%;
+    font-size: 50px;
+}
+.touch-right{
+    width: 50%;
+}
+
+.form-group {
+    margin-bottom: 20px; 
+}
+
+.touch-right input[type="email"],
+.touch-right input[type="text"],
+.touch-right textarea
+{
+    width: 100%;
+    display: block;
+    padding: 20px;
+    border: 1px solid #D6DDED;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all linear .5s;
+}
+
+.touch-right label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.touch-right input:focus,
+.touch-right textarea:focus {
+    outline: none;
+    box-shadow: 0px 0px 5px 1px #4a90e2;
+}
+
+.touch-right input[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    background-color: #4E47FF;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all linear .5s;
+}
+.touch-right input[type="submit"]:hover{
+    background-color: #03855a;
+    color: #afff47;
+}
+
+/* touch end */
+
